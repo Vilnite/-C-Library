@@ -6,7 +6,7 @@
 #    By: kvilnite <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 19:05:49 by kvilnite          #+#    #+#              #
-#    Updated: 2018/03/01 15:14:28 by kvilnite         ###   ########.fr        #
+#    Updated: 2018/03/07 20:01:37 by kvilnite         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,8 @@ SRCS = ft_atoi.c \
 		ft_lstdel.c \
 		ft_lstiter.c \
 		ft_lstmap.c \
+		ft_max.c \
+		ft_arrlen.c \
 
 OBJ = $(SRCS:.c=.o)	
 
