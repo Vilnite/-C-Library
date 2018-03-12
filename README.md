@@ -65,7 +65,7 @@
 | ft_lstiter	| iterates the list lst and applies the function f to each link. |
 | ft_lstmap | Iterates a list lst and applies the function f to each link to create a “fresh” list (using malloc(3)) resulting from the successive applications of f. If the allocation fails, the function returns NULL. |
 | **ADDITONAL** |
-| ft_isspace	| finds if here are spaces, tabs, new lines etc in string, returns 1 if true and 0 if don’t find any. |
+| ft_isspace	| finds spaces in string given as argument, returns 1 if true and 0 if false. |
 | ft_countwords	| counts words in string given as argument. |
 | ft_min | compares two given arguments returning the smallest argument. |
 | ft_max | compares two given arguments returning the biggest argument. |
